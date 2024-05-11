@@ -1,0 +1,190 @@
+/* Establece los colores básicos */
+:root {
+  --primary-color: #1e90ff; /* Azul */
+  --secondary-color: #ff6347; /* Tomate */
+  --background-color: #f8f9fa; /* Gris muy claro */
+  --text-color: #333333; /* Gris oscuro */
+  --black: #000000; /* Negro */
+}
+
+/* Configuración básica del cuerpo */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navegación */
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand img {
+  max-height: 50px; /* Ajusta esto según el tamaño de tu logo */
+}
+
+/* Formulario de búsqueda */
+.form-inline .form-control {
+  background-color: var(--black);
+  color: white;
+}
+
+/* Enlaces */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Configuración del Carrusel */
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos de las secciones */
+section {
+  padding: 20px;
+  margin-top: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilos de las tarjetas para personajes */
+.character {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.character img {
+  width: 100%; /* Ajusta según la disposición */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Ajustes para botones */
+.btn-outline-success {
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Estilos para el modal */
+.modal-content {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}.btn-custom {
+  background-color: var(--primary-color); /* Azul */
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: var(--secondary-color); /* Tomate */
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+.card-custom {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.card-header-custom {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.card-body {
+  padding: 20px;
+  background-color: white;
+  color: var(--text-color);
+}
+.texto-vino {
+  background-color: #641E16; /* Color Vino */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espacio alrededor del texto */
+  border-radius: 5px; /* Bordes redondeados para el fondo */
+}
+.card {
+  background-color: #641E16; /* Color Vino Oscuro */
+  color: white; /* Color del texto */
+  border-radius: 8px; /* Bordes redondeados de la tarjeta */
+  margin-bottom: 20px; /* Espacio debajo de cada tarjeta */
+}
+
+.card-img-top {
+  height: 200px; /* Altura fija para las imágenes para uniformidad */
+  object-fit: cover; /* Asegura que la imagen cubra el área sin deformarse */
+  border-top-left-radius: 8px; /* Redondeo de la esquina superior izquierda */
+  border-top-right-radius: 8px; /* Redondeo de la esquina superior derecha */
+}
+
+.card-title {
+  font-weight: bold; /* Negrita para el título de la tarjeta */
+}
+
+.card-text {
+  font-size: 16px; /* Tamaño del texto para detalles */
+}
+
+.card-deck .card {
+  margin-right: 10px; /* Espacio entre las tarjetas */
+  margin-left: 10px; /* Espacio entre las tarjetas */
+}
+.card {
+  background-color: #800020; // Un tono de color vino
+  color: #ffffff; // Texto blanco para mayor contraste
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  h2 {
+      margin-bottom: 10px;
+  }
+
+  p {
+      margin-bottom: 0;
+      line-height: 1.5;
+
+      a {
+          color: #ffd700; // Color dorado para los enlaces, por ejemplo
+          text-decoration: none;
+
+          &:hover {
+              text-decoration: underline;
+          }
+      }
+  }
+}
+
